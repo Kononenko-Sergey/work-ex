@@ -1,0 +1,143 @@
+@media (min-width: 600px) {
+	header{
+		height: 60vh;
+	}
+	.middle-container {
+    margin: 0px auto;
+	}
+	.header-logo{
+		display: block;
+  	width: 30%;
+  	float: left;
+	}
+	.menu-login {
+    padding-top: 50px;
+    width: 50%;
+    float: right;
+	}
+	.header-logo {
+    width: 50%;
+    float: left;
+	}
+	header h2 {
+    padding-top: 35px;
+	}
+	header h1{
+	padding-top: 170px;
+
+	}
+	.slaider .h2-black, .people .h2-black, .holiday .middle-container, .activity-ideas .h2-black{
+		padding: 40px 0;
+	}
+	.slaider .middle-container, .holiday .middle-container{
+		margin: 0px 20px;
+	}
+	.col-3{
+	float: left;
+	width: 33.33%;
+	padding: 0 15px;
+	box-sizing: border-box;
+	min-height: 30px;
+	}
+	.col-3-bacground-use, .col-3-bacground-car, .col-3-bacground-beach {
+		height: 400px;
+	}
+	.col-3-info {
+    padding: 166px 9px 0px;
+	}
+
+
+
+	.col-4{
+	float: left;
+	width: 50%;
+	padding: 0px 15px;
+	box-sizing: border-box;
+	min-height: 30px;
+	}
+	.people .middle-container{
+		margin: 0px 100px;
+	}
+	.people .button-white {
+    width: 30%;
+    margin: 0px auto;
+	}
+
+	.col-7{
+		float: left;
+		width: 33.33%;
+		padding: 0 15px;
+		box-sizing: border-box;
+		min-height: 30px;
+	}
+	.col-7-bacground-run, .col-7-bacground-meditation, .col-7-bacground-climb, .col-7-bacground-games, .col-7-bacground-journey, .col-7-bacground-relaxation, .col-7-bacground-travelling{
+		height: 310px; 
+	}
+	.col-7-50{
+		width: 66%;
+	}
+
+
+	.activity-ideas .middle-container{
+		margin: 0px 50px;
+	}
+	.ideas textarea{
+		display: inline-block;
+		margin: 0px;
+		width: 42%;
+	}
+	.ideas .button{
+		float: right;
+		width: 25%;
+	}
+
+
+
+
+	.menu-name li{
+		float: left;
+		width: 25%;
+		padding: 0px 15px;
+		box-sizing: border-box;
+		min-height: 30px;
+	}
+	.menu-company li{
+		float: none;
+		display: block;
+		margin: 0px auto;
+	}
+}
+@media(min-width: 900px) {
+	header{
+		height: 90vh;
+	}
+	header h1{
+		padding-top: 250px;
+	}
+	.slaider .h2-black, .people .h2-black, .activity-ideas .h2-black{
+		padding: 50px 0;
+	}
+	.slaider .middle-container, .holiday .middle-container{
+		margin: 0px 100px;
+	}
+	.col-3-bacground-use, .col-3-bacground-car, .col-3-bacground-beach{
+		height: 545px;
+	}
+	.col-4{
+		width: 25%;
+	}
+	.people .button-white{
+		margin: 50px auto;
+	}
+	.col-7-50{
+		width: 66%;
+	}
+
+
+	.activity-ideas .middle-container{
+		margin: 0px 300px;
+	}
+	.ideas{
+	margin-bottom: 50px;
+	}
+}

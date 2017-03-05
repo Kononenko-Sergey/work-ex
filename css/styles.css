@@ -1,0 +1,400 @@
+body {
+	line-height: 1.5;
+	font-size: 16px;
+}
+.middle-container{
+	margin: 0px 50px;
+}
+.montserrat{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color:#fff;
+}
+.roboto-light{
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+h3,h2,h1{
+	font-family: 'Montserrat', sans-serif;
+	color:#fff;
+	text-align: center;
+}
+h1{
+	font-size: 30px;
+}
+h2{
+	font-size: 20px;
+}
+.h2-black{
+	color: #000;
+}
+.button{
+	width: 210px;
+	display: block;
+	color: #fff;
+	background: #ff4e50;
+	padding: 20px 30px;
+	border-radius: 30px;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0px auto;
+	text-align: center;
+}
+.button-smol{
+  display: block;
+  width: 57px;
+	color: #fff;
+	background: #ff4e50;
+	padding: 4px 20px;
+	border-radius: 30px;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+.row {
+	display: table;
+	width: 100%;
+}
+.col-span{
+	color: #8a7d76;
+}
+
+
+
+
+
+header{
+	background:  url(../images/img-background.jpg) 50% 50% no-repeat;
+	width: 100%;
+	height: 90vh;
+}
+.header-logo{
+	display: block;
+  width: 100%;
+  float: none;
+}
+.menu-login{
+	display: block;
+	text-align: center;
+	padding-top: 50px;
+}
+.menu-login a{
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin-left: 50px;
+}
+.menu-login a:hover{
+	border: 2px solid #fff;
+	border-radius: 20px;
+	padding: 10px;
+}
+header h2{
+	padding-top: 100px;
+}
+header h1{
+	padding-top: 50px;
+	margin-top: 0px;
+
+}
+header span{
+	color: #fff;
+	text-align: center;
+}
+header .button{
+	margin-top: 20px;
+}
+
+
+
+
+.col-3-bacground-use{
+	background:  url(../images/gallery1.jpg)  no-repeat;
+	background-size: cover;
+}
+.col-3-bacground-car{
+	background:  url(../images/gallery2.jpg) no-repeat;
+	background-size: cover;
+}
+.col-3-bacground-beach{
+	background:  url(../images/gallery3.jpg) no-repeat;
+	background-size: cover;
+}
+.col-3-bacground-use, .col-3-bacground-car, .col-3-bacground-beach{
+  width: 100%;
+  height: 240px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.col-3-info {
+  text-align: left;
+  padding: 50px 9px 0px;
+}
+.col-3-h2{
+	display: block;
+	text-align: left;
+	margin-bottom: 0px;
+}
+
+
+
+
+
+.col-4{
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.col-4 .montserrat{
+	color: #000;
+}
+.people .button-white{
+	text-decoration: none;
+	color: #ff4e50;
+	background: #fff;
+	border: 2px solid #ff4e50;
+	border-radius: 20px;
+	padding: 10px 50px;
+  display: block;
+  text-align: center;
+}
+
+
+
+
+
+
+.col-7-bacground-run{
+	background:  url(../images/imd-desk-sport.jpg) no-repeat; 
+  background-size: cover;
+}
+.col-7-bacground-meditation{
+	background:  url(../images/img-desk-wellnes.jpg) no-repeat;
+  background-size: cover; 
+}
+.col-7-bacground-climb{
+	background:  url(../images/img-desk-extreme.jpg) no-repeat; 
+  background-size: cover;
+}
+.col-7-bacground-games{
+	background:  url(../images/img-desk-game.jpg) no-repeat;
+  background-size: cover; 
+}
+.col-7-bacground-journey{
+	background:  url(../images/img-desk-education.jpg) no-repeat; 
+  background-size: cover;
+}
+.col-7-bacground-relaxation{
+	background:  url(../images/img-desk-relacation.jpg) no-repeat;
+  background-size: cover; 
+}
+.col-7-bacground-travelling{
+	background:  url(../images/img-desk-travelling.jpg) no-repeat;
+  background-size: cover; 
+}
+.col-7-bacground-run, .col-7-bacground-meditation, .col-7-bacground-climb, .col-7-bacground-games, .col-7-bacground-journey, .col-7-bacground-relaxation, .col-7-bacground-travelling{
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  margin-bottom: 10px;
+}	
+.col-7 h2{
+	margin-top: 50px;
+}
+
+
+
+
+
+
+.activity-ideas .roboto-light{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.ideas textarea{
+  color: #cccccc;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  margin: 0px auto 20px;
+  display: block;
+  width: 100%;
+}
+.ideas{
+	margin-bottom: 20px;
+}
+.activity-ideas{
+	border-bottom: 6px solid #ff4e50;
+}
+.name{
+	color:#ff4e50;
+	font-size: 16px;
+}
+footer {
+	color:#000;
+}
+.footer-name{
+	color:#000;
+}
+.menu-name, .menu-company{
+	list-style-type: none;
+	text-align: center;
+	padding-left: 0px;
+}
+.menu-company li{
+	display: inline-block;
+	text-align: center;
+}
+.footer-span{
+	color: #b8b8b8;
+}
+
+
+
+
+
+
+
+@media (min-width: 600px) {
+	header{
+		height: 60vh;
+	}
+	.middle-container {
+    margin: 0px auto;
+	}
+	.header-logo{
+		display: block;
+  	width: 30%;
+  	float: left;
+	}
+	.menu-login {
+    padding-top: 50px;
+    width: 50%;
+    float: right;
+	}
+	.header-logo {
+    width: 50%;
+    float: left;
+	}
+	header h2 {
+    padding-top: 35px;
+	}
+	header h1{
+	padding-top: 170px;
+
+	}
+	.slaider .h2-black, .people .h2-black, .holiday .middle-container, .activity-ideas .h2-black{
+		padding: 40px 0;
+	}
+	.slaider .middle-container, .holiday .middle-container{
+		margin: 0px 20px;
+	}
+	.col-3{
+	float: left;
+	width: 33.33%;
+	padding: 0 15px;
+	box-sizing: border-box;
+	min-height: 30px;
+	}
+	.col-3-bacground-use, .col-3-bacground-car, .col-3-bacground-beach {
+		height: 400px;
+	}
+	.col-3-info {
+    padding: 166px 9px 0px;
+	}
+
+
+
+	.col-4{
+	float: left;
+	width: 50%;
+	padding: 0px 15px;
+	box-sizing: border-box;
+	min-height: 30px;
+	}
+	.people .middle-container{
+		margin: 0px 100px;
+	}
+	.people .button-white {
+    width: 30%;
+    margin: 50px auto 0;
+	}
+
+	.col-7{
+		float: left;
+		width: 33.33%;
+		padding: 0 15px;
+		box-sizing: border-box;
+		min-height: 30px;
+	}
+	.col-7-bacground-run, .col-7-bacground-meditation, .col-7-bacground-climb, .col-7-bacground-games, .col-7-bacground-journey, .col-7-bacground-relaxation, .col-7-bacground-travelling{
+		height: 310px; 
+	}
+	.col-7-50{
+		width: 66%;
+	}
+
+
+	.activity-ideas .middle-container{
+		margin: 0px 50px;
+	}
+	.ideas textarea{
+		display: inline-block;
+		margin: 0px;
+		width: 42%;
+	}
+	.ideas .button{
+		float: right;
+		width: 25%;
+	}
+
+
+
+
+	.menu-name li{
+		float: left;
+		width: 25%;
+		padding: 0px 15px;
+		box-sizing: border-box;
+		min-height: 30px;
+	}
+	.menu-company li{
+		float: none;
+		display: block;
+		margin: 0px auto;
+	}
+}
+@media(min-width: 900px) {
+	header{
+		height: 90vh;
+	}
+	header h1{
+		padding-top: 250px;
+	}
+	.slaider .h2-black, .people .h2-black, .activity-ideas .h2-black{
+		padding: 50px 0;
+	}
+	.slaider .middle-container, .holiday .middle-container{
+		margin: 0px 100px;
+	}
+	.col-3-bacground-use, .col-3-bacground-car, .col-3-bacground-beach{
+		height: 545px;
+	}
+	.col-4{
+		width: 25%;
+	}
+	.people .button-white{
+		margin: 50px auto 0;
+	}
+	.col-7-50{
+		width: 66%;
+	}
+
+
+	.activity-ideas .middle-container{
+		margin: 0px 300px;
+	}
+	.ideas{
+	margin-bottom: 50px;
+	}
+}
